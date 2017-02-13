@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background: #f9f9f9;
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url(../fonts/OpenSans.ttf);
+}
+
+.cloth {
+    width: 966px;
+    margin: 0 auto;
+    padding: 0 48px 60px 46px;
+    background: #fff;
+}
+
+.linkStyle ul li a {
+    display: block;
+    height: 18px;
+    font-family: OpenSans, Arial;
+    font-size: 13px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+/* HEADER */
+
+.logo a {
+    display: block;
+    height: 40px;
+    padding: 45px;
+}
+
+.topMenu {
+    height: 40px;
+    background: linear-gradient(to top, #444343, #5e5e5e)
+}
+
+.topMenu ul li {
+    text-align: center;
+    margin-right: 25px;
+    display: inline-block;
+}
+
+.topMenu ul li:hover {
+    width: 98px;
+    background: linear-gradient(to top, #2e2e2e, #4a4a4a);
+    border-right: 1px solid #838383;
+    border-left: 1px solid #838383;
+}
+
+.topMenu ul li a {
+    width: 100px;
+    height: 20px;
+    padding: 10px 0;
+    font-size: 15px;
+    color: #fff;
+    text-shadow: #000 1px 1px 3px;
+}
+
+/* CONTENT */
+
+.content {
+    padding: 40px 0 0;
+}
+
+.leftMenu {
+    width: 238px;
+    border: 1px solid #c8c8c8;
+    float: left;
+}
+
+.leftMenu ul li {
+    list-style-type: none;
+    border-bottom: 1px solid #c8c8c8;
+}
+
+.leftMenu ul li:last-child {
+    border: 0;
+}
+
+
+.leftMenu ul li a {
+    padding: 11px 0 10px 23px;
+    color: #656363;
+}
+
+.leftMenu ul li a:hover {
+    padding-left: 35px;
+    color: #2c2c2c;
+    background: #f9f9f9;
+}
+
+.sub-content {
+    margin-left: 48px;
+    float: right;
+}
+
+.picture img {
+    width: 676px;
+    height: 398px;
+    border: 1px solid #c8c8c8;
+}
+
+.description {
+    width: 628px;
+    padding: 40px 25px 60px 25px;
+    font-size: 13px;
+    font-family: OpenSans, Arial;
+}
+
+/* FOOTER */
+
+footer {
+    clear: both;
+    height: 40px;
+    background: #e1e1e1;
+}
+
+.bottomMenu {
+    float: left;
+}
+
+.bottomMenu ul li {
+    display: inline-block;
+}
+
+.bottomMenu ul li a {
+    width: 100px;
+    padding: 11px 0;
+    margin-right:  25px;
+    text-align: center;
+    color: #2c2c2c;
+}
+
+.bottomMenu ul li a:hover {
+    text-decoration: underline;
+}
+
+.copyRight {
+    padding: 11px 25px 11px 0;
+    float: right;
+    font-size: 13px;
+    color: #2c2c2c;
+    font-family: OpenSans, Arial;
+}
